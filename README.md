@@ -17,7 +17,13 @@ This app is for a list of overlay items which come and goes with animation above
 
 ## Usage
 
-- First create a builder in main MaterialApp or other similar MaterialApp
+-   add the dependency in pubspec.yaml
+```
+full_app_overlay_widget:
+      git: https://github.com/adsaurnab/full-app-overlay-widget
+```
+
+- Create a builder in main MaterialApp or other similar MaterialApp
 ```dart
 builder: (context, child) {
     return OverlayBaseClassWidget(
